@@ -1,0 +1,14 @@
+Chapter 2:
+Managing objects
+	- Use the imperitive approach as much a possible.
+		- For Pods, k run
+		- All else, k create
+	- Practice editing live objects
+		- k edit
+	- Practice deleting object
+		- k delete <type> <object> --grace-period=0 --force
+Know how to interact with objects
+	- k get
+	- k describe
+	- k logs
+	- k exec -it <container name> -- /bin/sh
