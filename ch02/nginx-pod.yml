@@ -8,3 +8,8 @@ spec:
       image: nginx:1.17.10
       ports: 
         - containerPort: 80
+      env:
+        - name: DB_URL
+          value: postgresql://mydb:5432
+        - name: DB_USERNAME
+          value: admin
